@@ -11,6 +11,6 @@ mpl.colormaps.register(cmap = cmap1)
 
 def color_list(num_color) : 
     
-    """ return a list of norded prepared color """
+    """ return a list of norded prepared colors """
     
     return cmap1(np.linspace(0,1,num_color))
